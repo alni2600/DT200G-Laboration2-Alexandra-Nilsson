@@ -37,7 +37,14 @@
         <main>
                       
             <section class="page-section" id="hero-section">
-                <img src="images/header.png" alt="" id="hero">
+                <picture>
+                        <source type="image/webp"
+                            srcset="images/header-400.webp 400w, 
+                                images/header-800.webp 800w, 
+                                images/header-1200.webp 1200w">
+                        <img src="images/header.png" alt="" id="hero">
+                    </picture>
+                
 
                 <h1 class="uppercase-heading">Alexandras bildserie</h1>
 
@@ -57,16 +64,37 @@
                 <h3>De redigerade bilderna</h3>
                 <div class="index-img-container">
                     <picture>
-                        <source 
-                        srceset="images/bildserie001-redigerad-400.avif 400w, 
+                        <source type="image/avif"
+                            srcset="images/bildserie002-redigerad-400.avif 400w, 
+                                images/bildserie002-redigerad-800.avif 800w, 
+                                images/bildserie002-redigerad-1200.avif 1200w">
+                        <img src="images/bildserie002-redigerad.jpg" alt="orientalisk byggnad med dovare färger och fingret är borttaget" class="startpage-images"> 
+                    </picture>
+                    
+                    <picture>
+                        <source type="image/avif"
+                            srcset="images/bildserie003-redigerad-400.avif 400w, 
+                                images/bildserie003-redigerad-800.avif 800w, 
+                                images/bildserie003-redigerad-1200.avif 1200w">
+                        <img src="images/bildserie003-redigerad.jpg" alt="brun katt där det lila ögat är korrigerat så att båda ögonen är lika" class="startpage-images">
+                    </picture>
+                    
+                    <picture>
+                        <source type="image/avif"
+                            srcset="images/bildserie004-redigerad-400.avif 400w, 
+                                images/bildserie004-redigerad-800.avif 800w, 
+                                images/bildserie004-redigerad-1200.avif 1200w">
+                        <img src="images/bildserie004-redigerad.jpg" alt="brandbil som blivit färglagd från svartvit" class="startpage-images">
+                    </picture>
+
+                    <picture>
+                        <source type="image/avif"
+                            srcset="images/bildserie001-redigerad-400.avif 400w, 
                                 images/bildserie001-redigerad-800.avif 800w, 
-                                images/bildserie001-redigerad-1600.avif 1600w"
-                        type="image/avif">
+                                images/bildserie001-redigerad-1200.avif 1200w">
                         <img src="images/bildserie001-redigerad.jpg" alt="flera båthus i olika färger, bild redigerad så att den har mer styrka i färgerna"  class="startpage-images">
                     </picture>
-                    <img src="images/bildserie002-redigerad.jpg" alt="orientalisk byggnad med dovare färger och fingret är borttaget" class="startpage-images"> 
-                    <img src="images/bildserie003-redigerad.jpg" alt="brun katt där det lila ögat är korrigerat så att båda ögonen är lika" class="startpage-images">
-                    <img src="images/bildserie004-redigerad.jpg" alt="brandbil som blivit färglagd från svartvit" class="startpage-images">
+                    
                 </div>
             </section>
 
