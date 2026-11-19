@@ -72,7 +72,8 @@ p {
 /* gör att bilderna aldrig blir större än parent-elementet och "block" att det inte blir "extra" space på sidorna/under */
 img {
     display: block;
-    max-inline-size: 100%;
+    max-width: 100%;
+    height: auto; 
 }
 
 
