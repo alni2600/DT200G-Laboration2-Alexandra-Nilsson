@@ -72,8 +72,9 @@ p {
 /* gör att bilderna aldrig blir större än parent-elementet och "block" att det inte blir "extra" space på sidorna/under */
 img {
     display: block;
-    max-width: 100%;
+    width: 95%;
     height: auto; 
+    margin: auto;
 }
 
 
@@ -145,14 +146,6 @@ header a, footer a {
     padding-top: 0;
 }
 
-.project-images {
-    /* anger hur bilderna organiseras/visas */
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    padding: 1em 1em 2em 1em;
-}
-
 .startpage-images {
     border-radius: 15px;
     max-width: 400px;
@@ -166,8 +159,10 @@ header a, footer a {
  }
 
 .project-images {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em 1em 2em 1em;
 }
 
 .index-img-container {
@@ -186,6 +181,7 @@ header a, footer a {
  .page-links {
     /* behövs för att pilen ska hamna på samma rad som länk-texten */
     display: inline-flex; 
+    white-space: nowrap;
     color: black;
     font-weight: 600;
     padding: 3px;
@@ -220,6 +216,10 @@ header a, footer a {
         justify-content: space-between;
         padding-right: 1em;
         padding-left: 1em;
+    }
+
+    .project-images {
+        flex-direction: row;
     }
 
     #nav-ul {
