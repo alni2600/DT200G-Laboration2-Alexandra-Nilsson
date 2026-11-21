@@ -73,7 +73,6 @@ p {
 img {
     display: block;
     width: 95%;
-    height: auto; 
     margin: auto;
 }
 
@@ -148,7 +147,6 @@ header a, footer a {
 
 .startpage-images {
     border-radius: 15px;
-    max-width: 400px;
     object-fit: cover;
 }
 
@@ -163,6 +161,11 @@ header a, footer a {
     flex-direction: column;
     gap: 1em;
     padding: 1em 1em 2em 1em;
+}
+
+.project-images img {
+    width: 100%; 
+    height: auto;
 }
 
 .index-img-container {
