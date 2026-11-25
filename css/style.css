@@ -123,10 +123,15 @@ img {
     padding: 3em 20px 0 20px;
 }
 
-header a, footer a {
+header a, footer a, header li {
     color: black;
     text-decoration: none;
     font-weight: 600;
+}
+
+.current-page {
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
 }
 
 #burger-menu {
@@ -232,6 +237,7 @@ header a, footer a {
         position: relative;
         padding: 0;
         box-shadow: none;
+        align-items: center;
     }
 
     #burger-menu {
