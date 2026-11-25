@@ -216,6 +216,9 @@ header a, footer a, header li {
     min-width: 200px;
  }
 
+ .no-padding {
+    padding: 0;
+ }
 
  @media (min-width: 850px) {
     header {
@@ -228,6 +231,10 @@ header a, footer a, header li {
 
     .project-images {
         flex-direction: row;
+    }
+
+    .current-page {
+        padding: 0.5rem;
     }
 
     #nav-ul {
